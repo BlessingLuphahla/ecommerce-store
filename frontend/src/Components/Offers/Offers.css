@@ -4,17 +4,25 @@
   height: 70vh;
   margin: auto;
   padding: 30px 100px;
+  padding-bottom: 70px;
   margin-bottom: 150px;
   background: rgba(23, 23, 32, 1);
   justify-content: space-around;
   align-items: center;
   gap: 30px;
+  font-family: Roboto;
 }
 
 .offers-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 50px;
 }
+
 .offers-right img {
-  height: 85%;
+  height: 75%;
   width: auto;
 }
 
@@ -27,25 +35,33 @@
   align-items: center;
   padding: 10px;
 }
+
 .offers-left h1 {
   font-size: 55px;
   margin: 10px;
-
+  font-weight: 300;
 }
+
 .offers-left h2 {
   font-size: 45px;
   margin: 10px;
-  
+  font-weight: 300;
 }
+
 .offers-left p {
-    font-size: 20px;
+  font-size: 22px;
   margin: 10px;
 }
+
 .offers-left button {
+  width: 150px;
+  height: 60px;
   margin-top: 20px;
   outline: none;
   border: none;
   padding: 15px;
   border-radius: 120px;
-  font-size: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
 }

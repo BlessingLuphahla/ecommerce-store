@@ -20,7 +20,7 @@ import p7_img from "../images/product (7).jpg";
 import p8_img from "../images/product (8).jpg";
 import p9_img from "../images/product (9).jpg";
 
-let data_product = [
+let all_products = [
   {
     id: 1,
     name: "Random ass name.. this is not creative at all.I mean i aint got time to write things one by one",
@@ -189,3 +189,6 @@ let data_product = [
     old_price: 15,
   },
 ];
+
+
+export default all_products
