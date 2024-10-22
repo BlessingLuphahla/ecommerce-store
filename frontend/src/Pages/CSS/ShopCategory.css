@@ -1,0 +1,9 @@
+.shop-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-category img {
+    margin: 50px auto;
+}
